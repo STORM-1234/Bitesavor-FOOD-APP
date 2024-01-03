@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeFragment"
+    android:background="@drawable/wallpaper_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello!"
+            android:textStyle="bold"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:id="@+id/hello_text"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Your Profile Here"
+            android:textColorHint="@color/black"
+
+            android:layout_marginTop="15dp"
+
+            android:layout_below="@id/hello_text"
+            android:id="@+id/hello_text1"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_big"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-70dp"
+            android:layout_below="@id/hello_text"></ImageView>
+        <TextView
+            android:layout_marginTop="-50dp"
+            android:id="@+id/navNameget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:layout_below="@+id/profile"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/navName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:layout_below="@+id/navNameget"
+            android:layout_centerHorizontal="true"
+            ></EditText>
+        <EditText
+            android:id="@+id/navEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:layout_below="@+id/navName"
+            android:layout_centerHorizontal="true"
+            ></EditText>
+        <EditText
+            android:textColorHint="@color/black"
+            android:id="@+id/navPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:hint="Enter\nCurrent Password\nOr\nThe New Password"
+            android:textAlignment="center"
+            android:layout_below="@+id/navEmail"
+            android:layout_centerHorizontal="true"
+            ></EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/change"
+            android:layout_below="@+id/navPassword"
+            android:layout_centerHorizontal="true"
+            android:text="Apply Changes\n&amp;\nLogout"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"></Button>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

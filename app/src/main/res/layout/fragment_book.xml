@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/wallpaper_2"
+    android:padding="16dp">
+
+    <CalendarView
+
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTables"
+        android:layout_width="250dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calendarView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:entries="@array/table_numbers"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerTables"
+        android:textColorHint="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Your Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:id="@+id/editTextComment"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+
+        android:hint="Comment"
+        android:textAlignment="center" />
+
+    <Button
+        android:textColorHint="@color/black"
+        android:id="@+id/btnBookTable"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/spinnerTables"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="10dp"
+        android:text="Book Table"/>
+
+</RelativeLayout>

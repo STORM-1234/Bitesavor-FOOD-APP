@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-1dp"
+        android:src="@drawable/logo"></ImageView>
+
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/profile_big"></ImageView>
+
+    <EditText
+        android:id="@+id/edit_text_username_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-50dp"
+        android:hint="USERNAME"
+        android:textAlignment="center"></EditText>
+    <EditText
+        android:id="@+id/edit_text_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_username_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:hint="PASSWORD"
+        android:textAlignment="center"></EditText>
+    <EditText
+        android:id="@+id/edit_text_repassword_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_password_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:hint="CONFORM PASSWORD"
+        android:textAlignment="center"></EditText>
+    <EditText
+        android:id="@+id/edit_text_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_repassword_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:hint="Email"
+        android:textAlignment="center"></EditText>
+
+
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_text_email_register"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F16039"
+        android:paddingStart="30dp"
+        android:text="REGISTER"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login_old_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/register_button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#F16039"
+        android:paddingStart="30dp"
+        android:text="EXISTING USER "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

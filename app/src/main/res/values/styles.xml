@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+    <style name="CircularCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/circle_checkbox</item>
+    </style>
+    <style name="Base.Theme.Bitesavor" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+
+    </style>
+
+    <style name="Theme.Bitesavor" parent="Base.Theme.Bitesavor" />
+
+</resources>

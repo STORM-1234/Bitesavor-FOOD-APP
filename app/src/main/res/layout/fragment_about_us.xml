@@ -1,0 +1,94 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsFragment"
+    android:background="@drawable/about_bg"
+    android:layout_marginTop="60dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/vision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/aladin"
+            android:text="Vision Statement:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vstatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vision"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/aladin"
+            android:text="Transforming dining into an immersive experience, Bitesavor envisions a world where culinary innovation, convenience, and delightful moments converge. We aim to redefine the restaurant industry, connecting people with their favorite flavors through cutting-edge technology."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="italic"></TextView>
+
+        <TextView
+            android:id="@+id/mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vstatement"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/aladin"
+            android:text="Mission Statement::"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mstatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mission"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/aladin"
+            android:text="At Bitesavor, our mission is to revolutionize dining through a user-friendly mobile app. We're dedicated to simplifying the ordering process, ensuring transparent transactions, and providing an unparalleled dining journey. By fostering innovation and embracing culinary excellence, we aim to make every bite a savory delight for our patrons."
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="italic"></TextView>
+
+        <ImageButton
+            android:id="@+id/logo_au_bt"
+            android:layout_width="390px"
+            android:layout_height="250px"
+            android:layout_below="@+id/mstatement"
+            android:layout_marginTop="-20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/Inv"
+
+            android:src="@drawable/logo_small"></ImageButton>
+          <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+              android:layout_below="@+id/logo_au_bt"
+              android:layout_centerHorizontal="true"
+              android:text="Contact Us"
+              android:textStyle="bold"
+
+           ></TextView>
+    </RelativeLayout>
+</FrameLayout>

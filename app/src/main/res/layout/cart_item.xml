@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="18dp"
+    android:background="@drawable/bg_2"
+
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/itemPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemNameTextView"
+        android:text="Item Price"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/itemQuantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="7dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/decrementButton"
+        android:text="0"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/decrementButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/baseline_indeterminate_check_box_24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="16dp"
+        />
+    <ImageButton
+        android:id="@+id/incrementButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/black"
+        android:layout_below="@+id/itemQuantityTextView"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/baseline_add_to_photos_24"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Bitesavor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+
+        <string-array name="table_numbers">
+            <item>Table 1 / 2 Seats</item>
+            <item>Table 2 / 2 Seats</item>
+            <item>Table 3 / 4 Seats</item>
+            <item>Table 4 / 4 Seats</item>
+            <item>Table 5 / 6 Seats</item>
+            <item>Table 6 / 6 Seats</item>
+            <item>Table 7 / 6 Seats</item>
+            <item>Table 8 / 6 Seats</item>
+
+
+        </string-array>
+
+</resources>
